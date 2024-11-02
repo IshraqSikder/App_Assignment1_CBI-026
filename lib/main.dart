@@ -96,7 +96,7 @@ class MyHomePage extends StatelessWidget {
                 _buildAnimatedCircle(
                   size: size,
                   clicked: buttonClicked.value,
-                  topPosition: buttonClicked.value ? 0 : size.width * 0.50,
+                  topPosition: buttonClicked.value ? 0 : size.width * 0.495,
                   circleSize:
                       buttonClicked.value ? size.width * 0.2 : size.width * 0.3,
                   color: Colors.black,
@@ -131,7 +131,7 @@ class MyHomePage extends StatelessWidget {
           width: circleSize,
           height: circleSize,
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(100),
+            borderRadius: BorderRadius.circular(150),
             color: color,
           ),
           child: child,
